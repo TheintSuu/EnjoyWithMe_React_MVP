@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAboutTitle"
+        android:layout_marginStart="@dimen/margin_medium"
+        style="@style/GrayText"
+        android:textColor="#5A5D5A"
+        android:text="About Film"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_below="@id/tvAboutTitle"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOriginal"
+        android:layout_alignTop="@id/tvOriginalTile"
+        android:layout_marginStart="@dimen/margin_medium"
+        style="@style/GrayText"
+        android:textColor="#5A5D5A"
+        android:text="Original Title"
+        />
+
+    <TextView
+        android:layout_below="@id/tvAboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvOriginal"
+        android:layout_margin="@dimen/margin_medium"
+        android:id="@+id/tvOriginalTile"
+        android:textColor="@color/colorWhite"
+        android:text="Original Title is a tile . Later It will band data that get from api"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvType"
+        android:textColor="#5A5D5A"
+        android:layout_alignStart="@id/tvOriginal"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium"
+        style="@style/GrayText"
+        android:layout_below="@id/tvOriginal"
+        android:text="Type"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvType"
+        android:layout_alignTop="@id/tvType"
+        android:layout_below="@id/tvOriginal"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:id="@+id/tvTypeTile"
+        android:textColor="@color/colorWhite"
+        android:text=" Type Title is a tile . Later It will band data that get from api"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProduction"
+        android:layout_alignStart="@id/tvType"
+        android:textColor="#5A5D5A"
+        android:layout_marginTop="@dimen/margin_large"
+        style="@style/GrayText"
+        android:layout_below="@id/tvType"
+        android:text="Production"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvProduction"
+        android:layout_below="@id/tvTypeTile"
+        android:layout_alignStart="@id/tvOriginalTile"
+        android:id="@+id/tvProductionTile"
+
+        android:textColor="@color/colorWhite"
+        android:layout_alignTop="@id/tvProduction"
+        android:text=" Production Type Title is a tile . Later It will band data that get from api"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPremiere"
+        android:textColor="#5A5D5A"
+        android:layout_alignStart="@id/tvProduction"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_below="@id/tvProduction"
+        style="@style/GrayText"
+        android:text="Premiere"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvProductionTile"
+        android:layout_toEndOf="@id/tvPremiere"
+        android:layout_alignTop="@id/tvPremiere"
+        android:id="@+id/tvPremiereTile"
+        android:layout_alignStart="@id/tvOriginalTile"
+        android:textColor="@color/colorWhite"
+        android:text=" Premiere Type Title is a title . Later It will band data that get from api"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescription"
+        android:textColor="#5A5D5A"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_alignStart="@id/tvType"
+        android:layout_marginTop="@dimen/margin_large"
+        style="@style/GrayText"
+        android:layout_below="@id/tvPremiere"
+        android:text="Description"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvDescription"
+        android:layout_below="@id/tvPremiereTile"
+        android:layout_alignTop="@id/tvDescription"
+        android:layout_alignStart="@id/tvOriginalTile"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/tvDescriptiontitle"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:text=" Description Type Title is a title . Later It will band data that get from api"
+        />
+</RelativeLayout>

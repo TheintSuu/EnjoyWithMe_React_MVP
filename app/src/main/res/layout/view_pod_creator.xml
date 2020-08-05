@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D2533">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBestCreator"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:text="BEST Creators"
+        style="@style/GrayText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMoreShowCases"
+        android:text="MORE Creators"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_alignTop="@id/tvBestCreator"
+        android:layout_alignBottom="@id/tvBestCreator"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/carmen_sans_bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCreators"
+        android:layout_below="@id/tvBestCreator"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/margin_medium_3"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

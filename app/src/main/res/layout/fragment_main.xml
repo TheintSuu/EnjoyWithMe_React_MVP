@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFragment"
+    >
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/upcomingMovieLayout"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true" />
+
+
+            <TextView
+                android:id="@+id/tvPopularTitle"
+                style="@style/GrayText"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:layout_below="@id/upcomingMovieLayout"
+                android:text="BEST POPULAR FILMS AND SERIES"
+                android:textSize="@dimen/text_regular" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPopularMovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_below="@id/tvPopularTitle" />
+
+            <include
+                android:id="@+id/mapLayout"
+                layout="@layout/view_pod_map"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginEnd="@dimen/margin_medium_3"
+                android:layout_height="125dp"
+                android:layout_below="@id/rvPopularMovies" />
+
+            <include
+                android:id="@+id/tabLayout"
+                layout="@layout/view_pod_tab_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mapLayout" />
+
+            <include
+                android:id="@+id/showCaseLayout"
+                layout="@layout/view_pod_showcases"
+                android:layout_below="@id/tabLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/detailActorLayout"
+                layout="@layout/view_pod_actor"
+                android:layout_below="@id/showCaseLayout"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_medium_2"/>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

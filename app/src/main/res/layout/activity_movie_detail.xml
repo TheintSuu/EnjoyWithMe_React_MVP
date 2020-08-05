@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFragment"
+    tools:context=".activites.MovieDetailActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:contentScrim="@color/colorFragment"
+            app:expandedTitleGravity="start|top"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:scrimAnimationDuration="1000">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvMovieTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:text="Fantastic Bests and where to Find Them"
+                   android:textColor="#fff"
+                    android:fontFamily="@font/carmen_sans_bold"
+                    android:elevation="@dimen/margin_medium"
+                    android:textSize="@dimen/text_heading_1x"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/ivMoviesImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/yibo" />
+
+                <TextView
+                    android:id="@+id/tvYear"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_above="@id/tvMovieTitle"
+                    android:layout_marginStart="@dimen/margin_medium_3"
+                    android:background="@drawable/button_background"
+                    android:elevation="@dimen/margin_small"
+                    android:fontFamily="@font/carmen_sans_bold"
+                    android:gravity="center"
+                    android:text="2016"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/tvVoteAvearage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:layout_above="@id/tvMovieTitle"
+                    android:text="9,17"
+                    style="@style/GrayText"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_big" />
+
+                <include
+                    android:id="@+id/ratingLayout"
+                    layout="@layout/view_pod_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/tvVoteCount"
+                    android:layout_toStartOf="@id/tvVoteAvearage" />
+
+
+                <TextView
+                    android:id="@+id/tvVoteCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/tvVoteAvearage"
+                    android:layout_marginRight="@dimen/margin_medium"
+                    android:layout_above="@id/tvMovieTitle"
+                    android:text="31,345"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/carmen_sans_bold"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_marginTop="@dimen/margin_medium_3"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:layout_collapseMode="pin">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/toolbar_circle"
+                        android:padding="@dimen/margin_medium"
+                        android:id="@+id/btnBack"
+                        android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="@dimen/margin_medium_3"
+                        android:background="@drawable/toolbar_circle"
+                        android:padding="@dimen/margin_small"
+                        android:src="@drawable/ic_baseline_search_24" />
+
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/movieCategoryDetailLayout"
+                layout="@layout/view_pod_movie_type"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+
+            <include
+                android:id="@+id/storyLayout"
+                layout="@layout/view_pod_story_line_btn"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/movieCategoryDetailLayout"
+                android:layout_height="wrap_content"
+                />
+            <LinearLayout
+                android:id="@+id/detailActorLayout"
+                android:layout_width="match_parent"
+                android:layout_below="@id/storyLayout"
+                android:background="#1D2533"
+                android:layout_height="wrap_content">
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="@dimen/margin_medium"
+                  >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvBestActor"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:text="BEST ACTORS"
+                        style="@style/GrayText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvMoreShowCases"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:text="MORE ACTORS"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignTop="@id/tvBestActor"
+                        android:fontFamily="@font/carmen_sans_bold"
+                        android:textColor="@color/colorWhite"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvActors"
+                        android:layout_below="@id/tvBestActor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/margin_medium_3"/>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include
+                layout="@layout/view_pod_about_film"
+                android:layout_below="@id/detailActorLayout"
+                android:id="@+id/aboutFilmLayout"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+
+            <include
+                android:id="@+id/creatorLayout"
+                layout="@layout/view_pod_creator"
+                android:layout_marginHorizontal="@dimen/margin_medium"
+                android:layout_below="@id/aboutFilmLayout"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="250dp"
+    android:layout_margin="@dimen/margin_medium"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivShowCaseImage"
+            android:src="@drawable/yibo"
+            android:scaleType="centerCrop"
+            android:paddingStart="@dimen/margin_small"
+            android:paddingEnd="@dimen/margin_small"
+            android:layout_width="match_parent"
+            style="@style/GrayText"
+            android:layout_height="300dp" />
+
+
+
+        <TextView
+            android:id="@+id/tvMovieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passengers"
+            android:paddingStart="@dimen/margin_small"
+            android:textSize="24sp"
+            android:textColor="@color/colorWhite"
+            android:layout_above="@id/tvDate"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_medium"
+            style="@style/GrayText"
+            />
+
+        <TextView
+            android:id="@+id/tvDate"
+            style="@style/GrayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/margin_medium"
+            android:text="15 DECEMBER 2016"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:textSize="15sp"
+            android:layout_alignStart="@id/tvMovieTitle"
+            />
+
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        android:id="@+id/btnPlay"
+        android:layout_gravity="center"
+        android:elevation="@dimen/margin_small"
+        android:background="@drawable/circle_button"
+        />
+
+
+</FrameLayout>

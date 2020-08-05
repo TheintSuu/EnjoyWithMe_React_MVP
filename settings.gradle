@@ -1,0 +1,5 @@
+include ':SliderImage-master'
+include ':SliderImage-master'
+include ':mylibrary'
+include ':app'
+rootProject.name = "EnjoyWithMe"
