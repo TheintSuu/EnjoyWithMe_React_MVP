@@ -66,6 +66,6 @@ class Database {
         movieOne.vote_count = 31
         popularDao.insertPopularMovieList(arrayListOf(movieOne))
 
-        assert(popularDao.getPopularById(movieOne.id).value?.title == movieOne.title)
+        assert(popularDao.getPopularById(movieOne.id).value?.id == movieOne.id)
     }
 }

@@ -83,7 +83,7 @@ class MainPresenterImplTest {
         movieOne.video = false
         movieOne.vote_average = 35.0.toFloat()
         movieOne.vote_count = 31
-        val imageView = ImageView(ApplicationProvider.getApplicationContext())
+
         mPresenter.onTapMovieItem(movieOne.id)
         verify {
             mView.navigateToMoviesDetails(movieOne.id)
