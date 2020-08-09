@@ -2,8 +2,8 @@ package com.theintsuhtwe.enjoywithme.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.example.travelapp.adapter.BaseAdapter
-import com.example.travelapp.view.viewholder.BaseViewHolder
+import com.example.shared.BaseAdapter
+import com.example.shared.BaseViewHolder
 import com.theintsuhtwe.enjoywithme.R
 import com.theintsuhtwe.enjoywithme.data.vos.ActorVO
 import com.theintsuhtwe.enjoywithme.delegate.ActorAndCrewItemDelegate

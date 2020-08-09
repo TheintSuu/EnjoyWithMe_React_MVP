@@ -13,7 +13,7 @@ object GenersModelImpl : BaseModel(),GenersModel {
     @SuppressLint("CheckResult")
     override fun getPopularGenersFromApiSaveToDB(onSuccess: () -> Unit, onError: (String) -> Unit) {
         GenersModelImpl.mMoviesApi
-            .getAllGeners(API_KEY_CODE)
+            .getAllGeners(BuildConfig.API_KEY.toString())
             .map { it.data.toList() }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

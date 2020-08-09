@@ -2,14 +2,14 @@ package com.theintsuhtwe.enjoywithme.views.viewholders
 
 import android.view.View
 import com.bumptech.glide.Glide
+import com.example.shared.BaseViewHolder
 
-import com.example.travelapp.view.viewholder.BaseViewHolder
 import com.theintsuhtwe.enjoywithme.data.vos.PopularMoviesVO
 import com.theintsuhtwe.enjoywithme.delegate.MovieItemDelegate
 import com.theintsuhtwe.enjoywithme.utils.IMAGE_BASE_URL
 import kotlinx.android.synthetic.main.item_popular_films_and_series.view.*
 
-class PopularMovieViewHolder(itemView: View, delegate: MovieItemDelegate) : BaseViewHolder< PopularMoviesVO>(itemView) {
+class PopularMovieViewHolder(itemView: View, delegate: MovieItemDelegate) : BaseViewHolder<PopularMoviesVO>(itemView) {
 
     val mDelegate = delegate
 

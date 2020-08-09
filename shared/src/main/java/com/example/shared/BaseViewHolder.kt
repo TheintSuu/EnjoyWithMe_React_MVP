@@ -1,4 +1,4 @@
-package com.example.travelapp.view.viewholder
+package com.example.shared
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

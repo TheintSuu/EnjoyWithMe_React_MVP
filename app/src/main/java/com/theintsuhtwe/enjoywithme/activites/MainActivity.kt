@@ -4,12 +4,13 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
+import com.example.shared.BaseActivity
 import com.theintsuhtwe.enjoywithme.R
 import com.theintsuhtwe.enjoywithme.fragments.MainFragment
 import com.theintsuhtwe.enjoywithme.utils.FRAGMENT_MAIN
 import kotlinx.android.synthetic.main.toolbar_view_pod.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {

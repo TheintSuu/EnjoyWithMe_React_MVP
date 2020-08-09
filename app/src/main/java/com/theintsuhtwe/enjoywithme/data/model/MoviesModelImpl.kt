@@ -2,6 +2,7 @@ package com.theintsuhtwe.enjoywithme.data.model
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LiveData
+import com.theintsuhtwe.enjoywithme.BuildConfig
 import com.theintsuhtwe.enjoywithme.data.vos.MoviesVO
 import com.theintsuhtwe.enjoywithme.data.vos.VideoVO
 import com.theintsuhtwe.enjoywithme.utils.API_KEY_CODE
@@ -20,7 +21,7 @@ object MoviesModelImpl : MoviesModel, BaseModel() {
     @SuppressLint("CheckResult")
     override fun getAllMoviesFromApiAndSaveToDatabase(onSuccess: () -> Unit, onError: (String) -> Unit) {
         mMoviesApi
-            .getAllMovies(API_KEY_CODE)
+            .getAllMovies(BuildConfig.API_KEY.toString())
             .map { it.data.toList() }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

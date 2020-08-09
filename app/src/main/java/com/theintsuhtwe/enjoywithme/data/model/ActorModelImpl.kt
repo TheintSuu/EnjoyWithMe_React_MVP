@@ -14,7 +14,7 @@ object ActorModelImpl : BaseModel(),ActorModel {
     @SuppressLint("CheckResult")
     override fun getPopularActorFromApiSaveToDB(onSuccess: () -> Unit, onError: (String) -> Unit) {
         ActorModelImpl.mMoviesApi
-            .getAllActors(API_KEY_CODE)
+            .getAllActors(BuildConfig.API_KEY.toString())
             .map { it.data.toList() }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

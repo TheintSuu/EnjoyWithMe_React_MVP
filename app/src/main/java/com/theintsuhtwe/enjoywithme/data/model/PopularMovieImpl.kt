@@ -2,6 +2,7 @@ package com.theintsuhtwe.enjoywithme.data.model
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LiveData
+import com.theintsuhtwe.enjoywithme.BuildConfig
 
 import com.theintsuhtwe.enjoywithme.data.vos.PopularMoviesVO
 import com.theintsuhtwe.enjoywithme.utils.API_KEY_CODE
@@ -16,7 +17,7 @@ object PopularMovieImpl : BaseModel(), PopularMovieModel {
         onError: (String) -> Unit
     ) {
         PopularMovieImpl.mMoviesApi
-            .getAllPopularMovies(API_KEY_CODE)
+            .getAllPopularMovies(BuildConfig.API_KEY.toString())
             .map { it.data.toList() }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

@@ -2,6 +2,7 @@ package com.theintsuhtwe.enjoywithme.data.model
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LiveData
+import com.theintsuhtwe.enjoywithme.BuildConfig
 import com.theintsuhtwe.enjoywithme.data.vos.ActorVO
 import com.theintsuhtwe.enjoywithme.data.vos.CastAndCrewVO
 import com.theintsuhtwe.enjoywithme.data.vos.MovieDetailVO
@@ -22,7 +23,7 @@ object MovieDetailModelImpl : BaseModel(), MovieDetailModel {
         onSuccess: () -> Unit,
         onError: (String) -> Unit
     ) {
-       MovieDetailModelImpl.mMoviesApi.getMovieDetailsById(movieId, API_KEY_CODE)
+       MovieDetailModelImpl.mMoviesApi.getMovieDetailsById(movieId, BuildConfig.API_KEY.toString())
             .map { it.let { it } }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
@@ -46,7 +47,7 @@ object MovieDetailModelImpl : BaseModel(), MovieDetailModel {
         onError: (String) -> Unit
     ) {
         MovieDetailModelImpl.mMoviesApi.
-        getCastAndCrew(id, API_KEY_CODE)
+        getCastAndCrew(id, BuildConfig.API_KEY.toString())
             .map {
                 it.let { it }
             }.subscribeOn(Schedulers.io())
