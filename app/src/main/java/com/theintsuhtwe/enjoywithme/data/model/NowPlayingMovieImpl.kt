@@ -16,7 +16,7 @@ object NowPlayingMovieImpl : BaseModel(), NowPlayingMovieModel {
         onFailure: (String) -> Unit
     ) {
         NowPlayingMovieImpl.mMoviesApi
-            .getAllNowPlayingMovies(API_KEY_CODE)
+            .getAllNowPlayingMovies(BuildConfig.API_KEY.toString())
             .map { it.data.toList() }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

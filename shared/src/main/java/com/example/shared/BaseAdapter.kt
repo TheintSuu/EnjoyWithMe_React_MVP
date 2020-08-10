@@ -1,7 +1,6 @@
-package com.example.travelapp.adapter
+package com.example.shared
 
 import androidx.recyclerview.widget.RecyclerView
-import com.example.travelapp.view.viewholder.BaseViewHolder
 
 abstract class BaseAdapter<T: BaseViewHolder<W>,W> : RecyclerView.Adapter<T>() {
 

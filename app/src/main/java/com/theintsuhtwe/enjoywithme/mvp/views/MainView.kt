@@ -1,8 +1,9 @@
 package com.theintsuhtwe.enjoywithme.mvp.views
 
+import com.example.shared.BaseView
 import com.theintsuhtwe.enjoywithme.data.vos.*
 
-interface MainView : BaseView{
+interface MainView : BaseView {
     fun displayMoviesList(newsList: List<MoviesVO>)//UpComing Image Slider
 
     fun navigateToMoviesDetails(newsId: Int)

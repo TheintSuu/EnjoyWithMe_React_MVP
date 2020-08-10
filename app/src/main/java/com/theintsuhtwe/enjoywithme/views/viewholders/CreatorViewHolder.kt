@@ -2,11 +2,9 @@ package com.theintsuhtwe.enjoywithme.views.viewholders
 
 import android.view.View
 import com.bumptech.glide.Glide
-import com.example.travelapp.view.viewholder.BaseViewHolder
+import com.example.shared.BaseViewHolder
 import com.theintsuhtwe.enjoywithme.data.vos.CrewVO
-import com.theintsuhtwe.enjoywithme.data.vos.MoviesVO
 import com.theintsuhtwe.enjoywithme.delegate.ActorAndCrewItemDelegate
-import com.theintsuhtwe.enjoywithme.delegate.CreatorItemDelegate
 import com.theintsuhtwe.enjoywithme.utils.IMAGE_BASE_URL
 import kotlinx.android.synthetic.main.item_creator.view.*
 

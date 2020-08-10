@@ -2,6 +2,7 @@ package com.theintsuhtwe.enjoywithme.data.model
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LiveData
+import com.theintsuhtwe.enjoywithme.BuildConfig
 import com.theintsuhtwe.enjoywithme.data.model.BaseModel
 import com.theintsuhtwe.enjoywithme.data.model.TopRateMovieModel
 import com.theintsuhtwe.enjoywithme.data.vos.TopRatedVO
@@ -26,7 +27,7 @@ object TopRatedMovieImpl : BaseModel(), TopRateMovieModel {
             tabTitle = title
         }
         TopRatedMovieImpl.mMoviesApi
-            .getAllTopRatedMovies(API_KEY_CODE, tabTitle)
+            .getAllTopRatedMovies(BuildConfig.API_KEY.toString(), tabTitle)
             .map { it.data.toList() }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

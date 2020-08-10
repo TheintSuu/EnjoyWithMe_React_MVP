@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
+import com.example.shared.BaseActivity
 import com.theintsuhtwe.enjoywithme.R
 import com.theintsuhtwe.enjoywithme.adapters.ActorItemAdapter
 import com.theintsuhtwe.enjoywithme.adapters.CastAdapter
@@ -20,13 +21,11 @@ import com.theintsuhtwe.enjoywithme.mvp.views.DetailView
 import com.theintsuhtwe.enjoywithme.utils.IMAGE_BASE_URL
 import kotlinx.android.synthetic.main.activity_movie_detail.*
 import kotlinx.android.synthetic.main.view_pod_about_film.*
-import kotlinx.android.synthetic.main.view_pod_actor.*
 import kotlinx.android.synthetic.main.view_pod_actor.view.*
-import kotlinx.android.synthetic.main.view_pod_creator.*
 import kotlinx.android.synthetic.main.view_pod_creator.view.*
 import kotlinx.android.synthetic.main.view_pod_story_line_btn.*
 
-class MovieDetailActivity :BaseActivity(), DetailView {
+class MovieDetailActivity : BaseActivity(), DetailView {
 
     companion object {
 
