@@ -22,7 +22,7 @@ interface MoviesApi {
 
     @GET(GET_TOP_RATED_MOVIES)
     fun getAllTopRatedMovies(@Query(API_KEY) accessToken : String,
-                               @Query("pagwith_genrese") title : String
+                               @Query("with_genres") title : String
     )
             : Observable<GetAllTopRatedMoviesResponse>
 

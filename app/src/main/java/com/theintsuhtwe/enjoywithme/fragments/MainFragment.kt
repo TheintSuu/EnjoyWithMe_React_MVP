@@ -168,7 +168,6 @@ class MainFragment : Fragment(), MainView {
 
         val webIntent = Intent(
             Intent.ACTION_VIEW,
-
             Uri.parse(uriString)
         )
         startActivity(webIntent)
@@ -193,10 +192,11 @@ class MainFragment : Fragment(), MainView {
 
     private fun setTabLayoutTitle(it : List<GenersVO>){
         //tabLayoutTitleList = it.toMutableList()
-        val it = it.map{
+         it.map{
             it.name
         }.take(5)
-        it.forEach {
+             .distinct()
+             .forEach {
             tabLayoutProfile.addTab(tabLayoutProfile.newTab().setText(it))
         }
     }

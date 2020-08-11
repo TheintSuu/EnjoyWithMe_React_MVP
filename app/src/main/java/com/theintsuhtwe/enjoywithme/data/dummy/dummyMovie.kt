@@ -82,8 +82,8 @@ fun getTopRatedMovies() : List<TopRatedVO>{
     val movieOne = TopRatedVO()
     movieOne.backdrop_path = "/itiz2OBK4ns6XT0ufXtusojmMt9.jpg"
 
-    movieOne.id = 730239
-
+    movieOne.id = 703771
+    movieOne.popularity = 133.719.toFloat()
     movieOne.original_language = "en"
     movieOne.original_title = "Manohar & I"
     movieOne.overview = "Two solitary individuals meet each other every day in the city of Calcutta and share the stories of their imaginary life. But one day when death makes an appearance  the truth is revealed.movieOne."
@@ -93,7 +93,7 @@ fun getTopRatedMovies() : List<TopRatedVO>{
 
     movieOne.video = false
     movieOne.vote_average = 35.0.toFloat()
-    movieOne.vote_count = 31
+    movieOne.vote_count = 49
 
     return arrayListOf(movieOne)
 }

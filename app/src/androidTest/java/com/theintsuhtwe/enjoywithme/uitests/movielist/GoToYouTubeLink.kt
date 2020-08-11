@@ -29,12 +29,10 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4ClassRunner::class)
 class GoToYouTubeLink {
+    val YOUTUBE_URL = "https://www.youtube.com/"
+
+    val  Uri_Link = "https://www.youtube.com/watch?v=CpBLtXduh_k" //YOUTUBE_URL + YOUTUBE_LINK
     private val activityTestRule = IntentsTestRule<MainActivity>(MainActivity::class.java)
-
-
-
-
-
 
     @Before
     open fun setUp(){
@@ -55,18 +53,15 @@ class GoToYouTubeLink {
 
         Thread.sleep(2000)
 
-
-
-
-        assertEquals(true,
             intended(
                 allOf(
-                    hasPackage("com.android.browser"),
+                    toPackage("com.android.browser"),
+//                    hasPackage("com.android.browser"),
                     hasAction(Intent.ACTION_VIEW),
-                    hasData(com.theintsuhtwe.enjoywithme.uitests.movielist.GoToYouTubeLink.Uri_Link)
+                 hasData(Uri.parse(Uri_Link))
                 )
             )
-        )
+
 
 
     }
@@ -74,7 +69,6 @@ class GoToYouTubeLink {
     fun getTestInent() : ActivityResult {
         val youTubeIntent : Intent = Intent(
             Intent.ACTION_VIEW,
-
             Uri.parse(Uri_Link)
         )
        return ActivityResult(Activity.RESULT_OK, youTubeIntent)
@@ -86,7 +80,7 @@ class GoToYouTubeLink {
     companion object {
         private const val YOUTUBE_LINK = "f8t8LE28YUQ"
 
-        const val YOUTUBE_URL = "https://www.youtube.com/watch?v="
+        const val YOUTUBE_URL = "https://www.youtube.com/"
 
         private val Uri_Link = YOUTUBE_URL + YOUTUBE_LINK
 

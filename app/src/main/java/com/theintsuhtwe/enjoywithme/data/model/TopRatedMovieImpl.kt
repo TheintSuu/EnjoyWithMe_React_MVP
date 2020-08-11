@@ -17,7 +17,7 @@ object TopRatedMovieImpl : BaseModel(), TopRateMovieModel {
     @SuppressLint("CheckResult")
     override fun getTopMovieFromApiSaveToDB(
         title: String,
-        onSuccess: () -> Unit,
+        onSuccess: (List<TopRatedVO>) -> Unit,
         onError: (String) -> Unit
     ) {
         var tabTitle : String ?= null
@@ -33,6 +33,7 @@ object TopRatedMovieImpl : BaseModel(), TopRateMovieModel {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe ({
                 mTheDB.TopRatedVODao().deleteAll()
+                it?.let{onSuccess(it)}
                 TopRatedMovieImpl.mTheDB.TopRatedVODao().insertTopRateMovieList(it)
 
             },{

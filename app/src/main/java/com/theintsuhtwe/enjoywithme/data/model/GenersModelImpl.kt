@@ -2,6 +2,7 @@ package com.theintsuhtwe.enjoywithme.data.model
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.Transformations
 import com.theintsuhtwe.enjoywithme.BuildConfig
 import com.theintsuhtwe.enjoywithme.data.vos.GenersVO
 import com.theintsuhtwe.enjoywithme.utils.API_KEY_CODE
@@ -27,7 +28,11 @@ object GenersModelImpl : BaseModel(),GenersModel {
 
 
     override fun getAllGenersList(onError: (String) -> Unit): LiveData<List<GenersVO>> {
-        return mTheDB.GenersDao().getAllgeners()
+        return Transformations.distinctUntilChanged(mTheDB.GenersDao().getAllgeners())
+    }
+
+    override fun getGenersById(title : String, onError: (String) -> Unit): LiveData<GenersVO> {
+        return mTheDB.GenersDao().getgenersById(title)
     }
 
 

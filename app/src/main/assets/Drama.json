@@ -1,0 +1,401 @@
+
+  [
+        {
+            "popularity": 156.168,
+            "vote_count": 200,
+            "video": false,
+            "poster_path": "/b5XfICAvUe8beWExBz97i0Qw4Qh.jpg",
+            "id": 612706,
+            "adult": false,
+            "backdrop_path": "/ishzDCZIv9iWfI70nv5E4ZreYUD.jpg",
+            "original_language": "en",
+            "original_title": "Work It",
+            "genre_ids": [
+                35,
+                10402
+            ],
+            "title": "Work It",
+            "vote_average": 8.1,
+            "overview": "A brilliant but clumsy high school senior vows to get into her late father's alma mater by transforming herself and a misfit squad into dance champions.",
+            "release_date": "2020-08-07"
+        },
+        {
+            "popularity": 152.489,
+            "vote_count": 2951,
+            "video": false,
+            "poster_path": "/mb7wQv0adK3kjOUr9n93mANHhPJ.jpg",
+            "id": 583083,
+            "adult": false,
+            "backdrop_path": "/wO5QSWZPBT71gMLvrRex0bVc0V9.jpg",
+            "original_language": "en",
+            "original_title": "The Kissing Booth 2",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "title": "The Kissing Booth 2",
+            "vote_average": 8.1,
+            "overview": "With college decisions looming, Elle juggles her long-distance romance with Noah, changing relationship with bestie Lee and feelings for a new classmate.",
+            "release_date": "2020-07-24"
+        },
+        {
+            "popularity": 108.642,
+            "vote_count": 30,
+            "video": false,
+            "poster_path": "/8ziUp2q71vCmMgYY2MRCwI3mSs5.jpg",
+            "id": 628917,
+            "adult": false,
+            "backdrop_path": "/bkJA4J6sddIKwKSi0qepTiDdwvt.jpg",
+            "original_language": "en",
+            "original_title": "An American Pickle",
+            "genre_ids": [
+                35
+            ],
+            "title": "An American Pickle",
+            "vote_average": 5.8,
+            "overview": "An immigrant worker at a pickle factory is accidentally preserved for 100 years and wakes up in modern day Brooklyn. He learns his only surviving relative is his great grandson, a computer coder who he can’t connect with.",
+            "release_date": "2020-08-06"
+        },
+        {
+            "popularity": 91.459,
+            "vote_count": 369,
+            "video": false,
+            "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+            "id": 385103,
+            "adult": false,
+            "backdrop_path": "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
+            "original_language": "en",
+            "original_title": "Scoob!",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "Scoob!",
+            "vote_average": 7.6,
+            "overview": "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+            "release_date": "2020-07-08"
+        },
+        {
+            "popularity": 79.491,
+            "vote_count": 4,
+            "video": false,
+            "poster_path": "/dKjD3DTZjRI3Ipkf7Oz5zAILnwD.jpg",
+            "id": 659991,
+            "adult": false,
+            "backdrop_path": "/5nRyaVklxyA9OkxqZaPv1KBRqpd.jpg",
+            "original_language": "en",
+            "original_title": "Made in Italy",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "Made in Italy",
+            "vote_average": 6.8,
+            "overview": "A bohemian artist travels from London to Italy with his estranged son to sell the house they inherited from his late wife.",
+            "release_date": "2020-08-06"
+        },
+        {
+            "popularity": 66.139,
+            "vote_count": 5363,
+            "video": false,
+            "poster_path": "/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg",
+            "id": 495764,
+            "adult": false,
+            "backdrop_path": "/9xNOiv6DZZjH7ABoUUDP0ZynouU.jpg",
+            "original_language": "en",
+            "original_title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+            "genre_ids": [
+                28,
+                35,
+                80
+            ],
+            "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+            "vote_average": 7.2,
+            "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
+            "release_date": "2020-02-05"
+        },
+        {
+            "popularity": 69.357,
+            "vote_count": 8716,
+            "video": false,
+            "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+            "id": 496243,
+            "adult": false,
+            "backdrop_path": "/ApiBzeaa95TNYliSbQ8pJv4Fje7.jpg",
+            "original_language": "ko",
+            "original_title": "기생충",
+            "genre_ids": [
+                35,
+                18,
+                53
+            ],
+            "title": "Parasite",
+            "vote_average": 8.5,
+            "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+            "release_date": "2019-05-30"
+        },
+        {
+            "popularity": 50.962,
+            "vote_count": 25,
+            "video": false,
+            "poster_path": "/7B1gSxMdgZCCJcMRgo65T5lByMw.jpg",
+            "id": 695596,
+            "adult": false,
+            "backdrop_path": "/zFjL6CurOHiWb4Am4nzVHul28KH.jpg",
+            "original_language": "en",
+            "original_title": "Malibu Rescue: The Next Wave",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "title": "Malibu Rescue: The Next Wave",
+            "vote_average": 6.8,
+            "overview": "It’s summer again, and everyone’s favorite Junior Rescuers, The Flounders, are back at Tower 2. With the International Junior Rescue Championships headed to Southern California, the eyes of the entire planet are on Malibu Beach. But when Team USA falls victim to a bout of food poisoning, it’s up to Tyler, Dylan, Eric, Lizzie and Gina to represent their country in the world's most extreme lifeguard challenge!",
+            "release_date": "2020-08-04"
+        },
+        {
+            "popularity": 48.181,
+            "vote_count": 14,
+            "video": false,
+            "poster_path": "/27eA9xGba61LtKr7gJRnhtDDgEP.jpg",
+            "id": 651586,
+            "adult": false,
+            "backdrop_path": "/1iEDKZHREDetZcOoqioZewcHOw9.jpg",
+            "original_language": "es",
+            "original_title": "Superagente Makey",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "title": "Superagente Makey",
+            "vote_average": 3.9,
+            "overview": "Makey is a humble police officer that, unexpectedly, gets caught in the middle of a dangerous international drug operation in the Costa del Sol, Spain.",
+            "release_date": "2020-07-17"
+        },
+        {
+            "popularity": 58.883,
+            "vote_count": 5341,
+            "video": false,
+            "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+            "id": 454626,
+            "adult": false,
+            "backdrop_path": "/diFNHa3SXaGSSFovGatNWxLz2tn.jpg",
+            "original_language": "en",
+            "original_title": "Sonic the Hedgehog",
+            "genre_ids": [
+                28,
+                35,
+                878,
+                10751
+            ],
+            "title": "Sonic the Hedgehog",
+            "vote_average": 7.5,
+            "overview": "Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination.",
+            "release_date": "2020-02-12"
+        },
+        {
+            "popularity": 53.478,
+            "vote_count": 5225,
+            "video": false,
+            "poster_path": "/7Dktk2ST6aL8h9Oe5rpk903VLhx.jpg",
+            "id": 454983,
+            "adult": false,
+            "backdrop_path": "/itiz2OBK4ns6XT0ufXtusojmMt9.jpg",
+            "original_language": "en",
+            "original_title": "The Kissing Booth",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "title": "The Kissing Booth",
+            "vote_average": 7.3,
+            "overview": "When teenager Elle's first kiss leads to a forbidden romance with the hottest boy in high school, she risks her relationship with her best friend.",
+            "release_date": "2018-05-11"
+        },
+        {
+            "popularity": 48.987,
+            "vote_count": 4982,
+            "video": false,
+            "poster_path": "/czVhhAaSBFpakur7U8pOIDV9NUG.jpg",
+            "id": 621,
+            "adult": false,
+            "backdrop_path": "/koSWhCzMJfJOramu4KD0ZZifqpi.jpg",
+            "original_language": "en",
+            "original_title": "Grease",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "title": "Grease",
+            "vote_average": 7.4,
+            "overview": "Australian good girl Sandy and greaser Danny fell in love over the summer. But when they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance despite their eccentric friends?",
+            "release_date": "1978-07-07"
+        },
+        {
+            "popularity": 53.515,
+            "vote_count": 14379,
+            "video": false,
+            "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+            "id": 284053,
+            "adult": false,
+            "backdrop_path": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
+            "original_language": "en",
+            "original_title": "Thor: Ragnarok",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                14
+            ],
+            "title": "Thor: Ragnarok",
+            "vote_average": 7.6,
+            "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+            "release_date": "2017-10-25"
+        },
+        {
+            "popularity": 40.124,
+            "vote_count": 1750,
+            "video": false,
+            "poster_path": "/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+            "id": 522627,
+            "adult": false,
+            "backdrop_path": "/tintsaQ0WLzZsTMkTiqtMB3rfc8.jpg",
+            "original_language": "en",
+            "original_title": "The Gentlemen",
+            "genre_ids": [
+                28,
+                35,
+                80
+            ],
+            "title": "The Gentlemen",
+            "vote_average": 7.7,
+            "overview": "American expat Mickey Pearson has built a highly profitable marijuana empire in London. When word gets out that he’s looking to cash out of the business forever it triggers plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+            "release_date": "2020-01-01"
+        },
+        {
+            "popularity": 44.008,
+            "id": 515001,
+            "video": false,
+            "vote_count": 4402,
+            "vote_average": 8.1,
+            "title": "Jojo Rabbit",
+            "release_date": "2019-10-18",
+            "original_language": "en",
+            "original_title": "Jojo Rabbit",
+            "genre_ids": [
+                35,
+                10752,
+                18
+            ],
+            "backdrop_path": "/agoBZfL1q5G79SD0npArSlJn8BH.jpg",
+            "adult": false,
+            "overview": "A World War II satire that follows a lonely German boy whose world view is turned upside down when he discovers his single mother is hiding a young Jewish girl in their attic. Aided only by his idiotic imaginary friend, Adolf Hitler, Jojo must confront his blind nationalism.",
+            "poster_path": "/7GsM4mtM0worCtIVeiQt28HieeN.jpg"
+        },
+        {
+            "popularity": 48.458,
+            "vote_count": 2812,
+            "video": false,
+            "poster_path": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+            "id": 508439,
+            "adult": false,
+            "backdrop_path": "/xFxk4vnirOtUxpOEWgA1MCRfy6J.jpg",
+            "original_language": "en",
+            "original_title": "Onward",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                14,
+                10751
+            ],
+            "title": "Onward",
+            "vote_average": 7.9,
+            "overview": "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there.",
+            "release_date": "2020-02-29"
+        },
+        {
+            "popularity": 49.47,
+            "vote_count": 4391,
+            "video": false,
+            "poster_path": "/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg",
+            "id": 512200,
+            "adult": false,
+            "backdrop_path": "/zTxHf9iIOCqRbxvl8W5QYKrsMLq.jpg",
+            "original_language": "en",
+            "original_title": "Jumanji: The Next Level",
+            "genre_ids": [
+                12,
+                35,
+                14
+            ],
+            "title": "Jumanji: The Next Level",
+            "vote_average": 6.9,
+            "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
+            "release_date": "2019-12-04"
+        },
+        {
+            "popularity": 31.585,
+            "vote_count": 5,
+            "video": false,
+            "poster_path": "/7cN1YBcuBKrxdtxUDig29cXKfKR.jpg",
+            "id": 664301,
+            "adult": false,
+            "backdrop_path": "/gkO2r6UVaZWQjq2KIEuMrnOb0WT.jpg",
+            "original_language": "en",
+            "original_title": "I Used to Go Here",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "title": "I Used to Go Here",
+            "vote_average": 4.7,
+            "overview": "Following the launch of her new novel, 35-year-old writer Kate Conklin is invited to speak at her alma mater by her mentor and former professor. After accepting the invitation, Kate finds herself deeply enmeshed in the lives of an eccentric group of college students.",
+            "release_date": "2020-08-07"
+        },
+        {
+            "popularity": 46.074,
+            "vote_count": 18595,
+            "video": false,
+            "poster_path": "/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg",
+            "id": 13,
+            "adult": false,
+            "backdrop_path": "/7c9UVPPiTPltouxRVY6N9uugaVA.jpg",
+            "original_language": "en",
+            "original_title": "Forrest Gump",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "title": "Forrest Gump",
+            "vote_average": 8.5,
+            "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+            "release_date": "1994-07-06"
+        },
+        {
+            "popularity": 48.037,
+            "vote_count": 5161,
+            "video": false,
+            "poster_path": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+            "id": 546554,
+            "adult": false,
+            "backdrop_path": "/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg",
+            "original_language": "en",
+            "original_title": "Knives Out",
+            "genre_ids": [
+                35,
+                80,
+                18,
+                9648,
+                53
+            ],
+            "title": "Knives Out",
+            "vote_average": 7.8,
+            "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+            "release_date": "2019-11-27"
+        }
+    ]

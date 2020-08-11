@@ -3,16 +3,20 @@ package com.theintsuhtwe.enjoywithme.mvp.presenters
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
 import com.theintsuhtwe.enjoywithme.data.model.*
+import com.theintsuhtwe.enjoywithme.data.vos.GenersVO
 import com.theintsuhtwe.enjoywithme.mvp.views.MainView
 
 class MainPresenterImpl : MainPresenter, AbstractBasePresenter<MainView>() {
 
-    var mMoviesModel = MoviesModelImpl
+    var mMoviesModel : MoviesModel = MoviesModelImpl
     var mActorModel = ActorModelImpl
     var mShowcaseModel = NowPlayingMovieImpl
-    var mTopRatedModel = TopRatedMovieImpl
+    var mTopRatedModel: TopRateMovieModel = TopRatedMovieImpl
     var mPopularMovieModel = PopularMovieImpl
-    var mGenersModel = GenersModelImpl
+    var mGenersModel: GenersModel = GenersModelImpl
+
+    var genersList: List<GenersVO> = arrayListOf()
+
 
     override fun onUiReady(lifeCycleOwner: LifecycleOwner) {
 
@@ -54,22 +58,6 @@ class MainPresenterImpl : MainPresenter, AbstractBasePresenter<MainView>() {
         }).observe(lifeCycleOwner, Observer {
             mView?.dispalyPopularMovieList(it)
         })
-
-//        mTopRatedModel.getAllTopMovieList  (onError = {
-//        }).observe(lifeCycleOwner, Observer {
-//            mView?.displayMovieListByCaterogry(it)
-//        })
-//
-//        mTopRatedModel.getTopMovieFromApiSaveToDB(
-//            "",
-//            onSuccess = {
-//
-//            },
-//           onError = {
-//
-//            }
-//        )
-//
         mMoviesModel.getAllMoviesFromApiAndSaveToDatabase(
             onSuccess = {
 
@@ -126,29 +114,53 @@ class MainPresenterImpl : MainPresenter, AbstractBasePresenter<MainView>() {
         })
 
         mGenersModel.getAllGenersList(onError = {
-        }).observe(lifeCycleOwner, Observer {
-            mView?.displayGenersList(it)
         })
+            .observe(lifeCycleOwner, Observer {
+                genersList = it
+                mView?.displayGenersList(it)
+            })
 
     }
 
     private fun requestAllMoviesByCategory(lifeCycleOwner: LifecycleOwner, title: String) {
 
-        mTopRatedModel.getTopMovieFromApiSaveToDB(
-            title,
-            onSuccess = {
-                //  mView?.displayMovieListByCaterogry(it)
-            },
-            onError = {
+
+        val geners = genersList.filter { u ->
+
+            u.name.toString()
+                .equals(
+                    title.toString()
+                )
+        }.firstOrNull()
+
+
+        if (title != null) {
+//            mGenersModel.getGenersById(
+//                title,
+//                onError = {
+//                }).observe(lifeCycleOwner, Observer {
+//                geners = it
+
+         //   val genreId = geners?.id ?: 12;
+            geners?.let { genre ->
+                  //  genre.id = 12
+                    mTopRatedModel.getTopMovieFromApiSaveToDB(
+                        geners.id.toString(),
+                        onSuccess = {
+                            mView?.displayMovieListByCaterogry(it)
+                        },
+                        onError = {
+
+                        }
+                    )
+                } ?: run{
 
             }
-        )
+            }
 
-        mTopRatedModel.getAllTopMovieList(
-            onError = {
-            }).observe(lifeCycleOwner, Observer {
-            mView?.displayMovieListByCaterogry(it)
-        })
+
+
+
     }
 
     private fun requestAllVideo(id: Int) {

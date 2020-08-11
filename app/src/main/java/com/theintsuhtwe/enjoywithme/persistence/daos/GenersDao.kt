@@ -10,8 +10,8 @@ interface GenersDao {
     @Query("SELECT * FROM geners")
     fun getAllgeners(): LiveData<List<GenersVO>>
 
-    @Query("SELECT * FROM geners WHERE id = :noteId")
-    fun getgenersById(noteId: Int) : LiveData<GenersVO>
+    @Query("SELECT * FROM geners WHERE name = :noteId")
+    fun getgenersById(noteId: String) : LiveData<GenersVO>
 
     @Query("DELETE FROM geners")
     fun deleteAll()

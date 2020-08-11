@@ -1,0 +1,410 @@
+{
+    "page": 1,
+    "total_results": 10000,
+    "total_pages": 500,
+    "results": [
+        {
+            "popularity": 91.459,
+            "vote_count": 369,
+            "video": false,
+            "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+            "id": 385103,
+            "adult": false,
+            "backdrop_path": "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
+            "original_language": "en",
+            "original_title": "Scoob!",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "Scoob!",
+            "vote_average": 7.6,
+            "overview": "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+            "release_date": "2020-07-08"
+        },
+        {
+            "popularity": 84.074,
+            "vote_count": 19227,
+            "video": false,
+            "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+            "id": 299536,
+            "adult": false,
+            "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
+            "original_language": "en",
+            "original_title": "Avengers: Infinity War",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Avengers: Infinity War",
+            "vote_average": 8.3,
+            "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+            "release_date": "2018-04-25"
+        },
+        {
+            "popularity": 86.524,
+            "vote_count": 26730,
+            "video": false,
+            "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+            "id": 27205,
+            "adult": false,
+            "backdrop_path": "/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+            "original_language": "en",
+            "original_title": "Inception",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Inception",
+            "vote_average": 8.3,
+            "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+            "release_date": "2010-07-15"
+        },
+        {
+            "popularity": 70.173,
+            "id": 181812,
+            "video": false,
+            "vote_count": 5405,
+            "vote_average": 6.6,
+            "title": "Star Wars: The Rise of Skywalker",
+            "release_date": "2019-12-18",
+            "original_language": "en",
+            "original_title": "Star Wars: The Rise of Skywalker",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "backdrop_path": "/SPkEiZGxq5aHWQ2Zw7AITwSEo2.jpg",
+            "adult": false,
+            "overview": "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
+            "poster_path": "/db32LaOibwEliAmSL2jjDF6oDdj.jpg"
+        },
+        {
+            "popularity": 59.97,
+            "vote_count": 5742,
+            "video": false,
+            "poster_path": "/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg",
+            "id": 330457,
+            "adult": false,
+            "backdrop_path": "/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg",
+            "original_language": "en",
+            "original_title": "Frozen II",
+            "genre_ids": [
+                12,
+                16,
+                10751
+            ],
+            "title": "Frozen II",
+            "vote_average": 7.3,
+            "overview": "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+            "release_date": "2019-11-20"
+        },
+        {
+            "popularity": 60.979,
+            "vote_count": 8043,
+            "video": false,
+            "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+            "id": 429617,
+            "adult": false,
+            "backdrop_path": "/5myQbDzw3l8K9yofUXRJ4UTVgam.jpg",
+            "original_language": "en",
+            "original_title": "Spider-Man: Far from Home",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Spider-Man: Far from Home",
+            "vote_average": 7.5,
+            "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+            "release_date": "2019-06-28"
+        },
+        {
+            "popularity": 73.855,
+            "vote_count": 23300,
+            "video": false,
+            "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+            "id": 157336,
+            "adult": false,
+            "backdrop_path": "/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+            "original_language": "en",
+            "original_title": "Interstellar",
+            "genre_ids": [
+                12,
+                18,
+                878
+            ],
+            "title": "Interstellar",
+            "vote_average": 8.3,
+            "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+            "release_date": "2014-11-05"
+        },
+        {
+            "popularity": 65.501,
+            "vote_count": 14091,
+            "video": false,
+            "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+            "id": 11,
+            "adult": false,
+            "backdrop_path": "/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+            "original_language": "en",
+            "original_title": "Star Wars",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Star Wars",
+            "vote_average": 8.2,
+            "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+            "release_date": "1977-05-25"
+        },
+        {
+            "popularity": 56.035,
+            "vote_count": 14734,
+            "video": false,
+            "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+            "id": 672,
+            "adult": false,
+            "backdrop_path": "/bvRnPaai6JL7XHF4K6414DdSHro.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Chamber of Secrets",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "title": "Harry Potter and the Chamber of Secrets",
+            "vote_average": 7.7,
+            "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
+            "release_date": "2002-11-13"
+        },
+        {
+            "popularity": 51.908,
+            "vote_count": 3404,
+            "video": false,
+            "poster_path": "/vloNTScJ3w7jwNwtNGoG8DbTThv.jpg",
+            "id": 420809,
+            "adult": false,
+            "backdrop_path": "/skvI4rYFrKXS73BJxWGH54Omlvv.jpg",
+            "original_language": "en",
+            "original_title": "Maleficent: Mistress of Evil",
+            "genre_ids": [
+                12,
+                14,
+                10751
+            ],
+            "title": "Maleficent: Mistress of Evil",
+            "vote_average": 7.3,
+            "overview": "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play.",
+            "release_date": "2019-10-16"
+        },
+        {
+            "popularity": 53.515,
+            "vote_count": 14379,
+            "video": false,
+            "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+            "id": 284053,
+            "adult": false,
+            "backdrop_path": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
+            "original_language": "en",
+            "original_title": "Thor: Ragnarok",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                14
+            ],
+            "title": "Thor: Ragnarok",
+            "vote_average": 7.6,
+            "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+            "release_date": "2017-10-25"
+        },
+        {
+            "popularity": 48.458,
+            "vote_count": 2812,
+            "video": false,
+            "poster_path": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+            "id": 508439,
+            "adult": false,
+            "backdrop_path": "/xFxk4vnirOtUxpOEWgA1MCRfy6J.jpg",
+            "original_language": "en",
+            "original_title": "Onward",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                14,
+                10751
+            ],
+            "title": "Onward",
+            "vote_average": 7.9,
+            "overview": "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there.",
+            "release_date": "2020-02-29"
+        },
+        {
+            "popularity": 50.359,
+            "vote_count": 10122,
+            "video": false,
+            "poster_path": "/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
+            "id": 122917,
+            "adult": false,
+            "backdrop_path": "/bVmSXNgH1gpHYTDyF9Q826YwJT5.jpg",
+            "original_language": "en",
+            "original_title": "The Hobbit: The Battle of the Five Armies",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "title": "The Hobbit: The Battle of the Five Armies",
+            "vote_average": 7.3,
+            "overview": "Immediately after the events of The Desolation of Smaug, Bilbo and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood. Meanwhile an army of Orcs led by Azog the Defiler is marching on Erebor, fueled by the rise of the dark lord Sauron. Dwarves, elves and men must unite, and the hope for Middle-Earth falls into Bilbo's hands.",
+            "release_date": "2014-12-10"
+        },
+        {
+            "popularity": 46.117,
+            "vote_count": 9854,
+            "video": false,
+            "poster_path": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+            "id": 299537,
+            "adult": false,
+            "backdrop_path": "/nBS1vONGYrsL2C68C2oDQ3eKJR1.jpg",
+            "original_language": "en",
+            "original_title": "Captain Marvel",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Captain Marvel",
+            "vote_average": 7,
+            "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+            "release_date": "2019-03-06"
+        },
+        {
+            "popularity": 49.47,
+            "vote_count": 4391,
+            "video": false,
+            "poster_path": "/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg",
+            "id": 512200,
+            "adult": false,
+            "backdrop_path": "/zTxHf9iIOCqRbxvl8W5QYKrsMLq.jpg",
+            "original_language": "en",
+            "original_title": "Jumanji: The Next Level",
+            "genre_ids": [
+                12,
+                35,
+                14
+            ],
+            "title": "Jumanji: The Next Level",
+            "vote_average": 6.9,
+            "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
+            "release_date": "2019-12-04"
+        },
+        {
+            "popularity": 46.11,
+            "vote_count": 14518,
+            "video": false,
+            "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+            "id": 299534,
+            "adult": false,
+            "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+            "original_language": "en",
+            "original_title": "Avengers: Endgame",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Avengers: Endgame",
+            "vote_average": 8.3,
+            "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+            "release_date": "2019-04-24"
+        },
+        {
+            "popularity": 48.722,
+            "vote_count": 17537,
+            "video": false,
+            "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+            "id": 120,
+            "adult": false,
+            "backdrop_path": "/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+            "original_language": "en",
+            "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "vote_average": 8.3,
+            "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+            "release_date": "2001-12-18"
+        },
+        {
+            "popularity": 46.606,
+            "vote_count": 17708,
+            "video": false,
+            "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+            "id": 671,
+            "adult": false,
+            "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Philosopher's Stone",
+            "genre_ids": [
+                12,
+                14,
+                10751
+            ],
+            "title": "Harry Potter and the Philosopher's Stone",
+            "vote_average": 7.9,
+            "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
+            "release_date": "2001-11-16"
+        },
+        {
+            "popularity": 49.053,
+            "vote_count": 16598,
+            "video": false,
+            "poster_path": "/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+            "id": 271110,
+            "adult": false,
+            "backdrop_path": "/7FWlcZq3r6525LWOcvO9kNWurN1.jpg",
+            "original_language": "en",
+            "original_title": "Captain America: Civil War",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Captain America: Civil War",
+            "vote_average": 7.4,
+            "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies.",
+            "release_date": "2016-04-27"
+        },
+        {
+            "popularity": 42.919,
+            "vote_count": 22904,
+            "video": false,
+            "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+            "id": 24428,
+            "adult": false,
+            "backdrop_path": "/kwUQFeFXOOpgloMgZaadhzkbTI4.jpg",
+            "original_language": "en",
+            "original_title": "The Avengers",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "The Avengers",
+            "vote_average": 7.7,
+            "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+            "release_date": "2012-04-25"
+        }
+    ]
+}

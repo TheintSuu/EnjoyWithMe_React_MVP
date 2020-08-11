@@ -8,4 +8,6 @@ interface GenersModel {
 
 
     fun getAllGenersList(onError:(String) ->Unit): LiveData<List<GenersVO>>
+
+    fun getGenersById(title : String, onError:(String) ->Unit) : LiveData<GenersVO>
 }

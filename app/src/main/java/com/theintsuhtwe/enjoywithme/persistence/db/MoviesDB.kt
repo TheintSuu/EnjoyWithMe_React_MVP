@@ -15,7 +15,7 @@ import com.theintsuhtwe.enjoywithme.persistence.daos.*
 
 @Database(entities = [MoviesVO::class, ActorVO::class, PopularMoviesVO::class, TopRatedVO::class,
     NowPlayingVO::class, GenersVO::class,
-    MovieDetailVO::class, CastAndCrewVO::class], version = 19, exportSchema = false)
+    MovieDetailVO::class, CastAndCrewVO::class], version = 20, exportSchema = false)
 abstract class MoviesDB : RoomDatabase() {
     companion object {
         val DB_NAME = "PADC_Movies_X.DB"

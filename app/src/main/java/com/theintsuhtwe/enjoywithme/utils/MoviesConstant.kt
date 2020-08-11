@@ -10,7 +10,7 @@ package com.theintsuhtwe.enjoywithme.utils
 
     const val  GET_NOW_PLAYING_MOVIES = "movie/now_playing"
 
-    const val  GET_TOP_RATED_MOVIES = "movie/top_rated"
+    const val  GET_TOP_RATED_MOVIES = "discover/movie"
 
     const val  GET_ACTORS = "person/popular"
 
