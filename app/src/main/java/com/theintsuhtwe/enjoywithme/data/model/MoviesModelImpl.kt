@@ -28,7 +28,7 @@ object MoviesModelImpl : MoviesModel, BaseModel() {
             .subscribe ({
                 mTheDB.MoviesDao().insertAllMovies(it)
             },{
-                onError(it.localizedMessage ?: EM_NO_INTERNET_CONNECTION)
+                onError(it.localizedMessage ?: it.localizedMessage)
             })
 
     }
